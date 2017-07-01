@@ -1,0 +1,10 @@
+'.text.html.php':
+    'Laravel quotes':
+        'prefix': '{!'
+        'body': '{!! ${1:} !!'
+    'Form label':
+        'prefix': '::label'
+        'body': "::label('${1:label}', '${2:Label}', ['class' => 'label-control'])"
+    'Form text':
+        'prefix': '::text'
+        'body': "::text('${1:field}', old('${2:field}'), ['class' => 'form-control'])"
